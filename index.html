@@ -1,23 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- Preguntas para la entrega
-¿Como cambio los colores de los borders?
-En bootstrap tengo 2 columnas y la 1ra es mas Alta que la 2da, ¿Como hago que sean iguales? 
-jugar con el alto las las columnas
 En los enlaces interno, al tener el nav en stycky, me tapa el titulo de a donde me envia, hay una fomra de cambiar eso?-->
-<!-- Tips para la entrega 
-No se puede entregar en rar, solo github, (link de git)!!
-Todo el proyecto(todas las paginas con el contenido listas para pc) 
-2 paginas con vista mobile hasta 500px
-https://app.prntscr.com/es/help.html capturas de pantallas
--->
-<!-- Cosas que faltan
-Pag a celular
-H1 en el index
-Cambiar Temas (colores)
-Cambiar la letra
-Revisar todos los ALT (img, videos)
-imagenes en las paginas/videos -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,7 +21,7 @@ imagenes en las paginas/videos -->
         <nav class="navbar navbar-expand-lg container fs-5">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                    <img src="images/logotipo.jpg" alt="patotas" width="120" height="70"
+                    <img src="images/logotipo.jpg" alt="logo-patotas" width="120" height="70"
                         class="d-inline-block align-text-bottom nav-link">atotas</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -58,11 +42,18 @@ imagenes en las paginas/videos -->
     </header>
     <!-- Main -->
     <main class="container border ancho border-top-0 border-bottom-0 border-3 pb-4 pt-5 pb-5">
+        <!-- Encabezado -->
+        <section class="container text-center border rounded mb-5 py-5">
+            <h1 class="fs-3">Bienvenido a PATOTAS!!</h1>
+            <p class="fs-5 fw-normal">Esto nace en el año 2014 con la intención de compartir información sobre
+                cómo educar a un perro, cómo cuidarlo y cómo respetarlo. Poco a poco se fueron sumando amigos y
+                colaboradores al proyecto y fuimos creciendo hasta llegar a ser la web que somos hoy en día.</p>
+        </section>
         <!-- Menu Cards -->
         <section class="container row fw-semibold m-0">
             <div class="card p-1 border-0 col-lg-6">
                 <img src="images/perro-en-veterinario-780x470.webp" class="card-img rounded-4 opacity-75"
-                    alt="veterinario">
+                    alt="perro-en-el-veterinario">
                 <div class="card-img-overlay text-center">
                     <p class="card-text">Una visita al veterinario nunca esta de mas, lo recomendado es ir 1 vez por mes
                         para realizar todas las pruebas necesarias que determinen su correcto estado de salud, así como
@@ -70,7 +61,7 @@ imagenes en las paginas/videos -->
                 </div>
             </div>
             <div class="card p-1 border-0 col-lg-6">
-                <img src="images/cachorro-de-perro-780x470.webp" class="card-img rounded-4 opacity-75" alt="paseo">
+                <img src="images/cachorro-de-perro-780x470.webp" class="card-img rounded-4 opacity-75" alt="paseo-de-perros">
                 <div class="card-img-overlay text-center">
                     <p class="card-text">El paseo diario proporciona a tu perro el ejercicio físico y mental que
                         necesita. Va mucho más allá de las necesidades fisiológicas de orinar y defecar. Los beneficios
@@ -78,7 +69,7 @@ imagenes en las paginas/videos -->
                 </div>
             </div>
             <div class="card p-1 border-0 col-lg-4">
-                <img src="images/Dogfy-Diet-vs-Natuka-780x470.webp" class="card-img rounded-4 opacity-75" alt="...">
+                <img src="images/Dogfy-Diet-vs-Natuka-780x470.webp" class="card-img rounded-4 opacity-75" alt="perro-con-su-plato">
                 <div class="card-img-overlay text-center">
                     <p class="card-text">Los perros necesitan una alimentación adaptada a su tamaño, edad y
                         actividad
@@ -87,7 +78,7 @@ imagenes en las paginas/videos -->
                 </div>
             </div>
             <div class="card p-1 border-0 col-lg-4">
-                <img src="images/cachorro-sordo-780x470.jpg" class="card-img rounded-4 opacity-75" alt="...">
+                <img src="images/cachorro-sordo-780x470.jpg" class="card-img rounded-4 opacity-75" alt="perro-mordiendo">
                 <div class="card-img-overlay text-center">
                     <p class="card-text">Para conseguir que el perro entienda que su mordisco hace daño, hay que
                         dejar
@@ -96,7 +87,7 @@ imagenes en las paginas/videos -->
                 </div>
             </div>
             <div class="card p-1 border-0 col-lg-4">
-                <img src="images/perro-mojado-780x470.webp" class="card-img rounded-4 opacity-75" alt="...">
+                <img src="images/perro-mojado-780x470.webp" class="card-img rounded-4 opacity-75" alt="perro-mojado">
                 <div class="card-img-overlay text-center">
                     <p class="card-text">El riesgo de no bañar a su perro, o no bañar a su perro con la suficiente
                         frecuencia, es que los desechos en el pelaje, como el barro y la suciedad, permitirán que se
@@ -105,7 +96,7 @@ imagenes en las paginas/videos -->
             </div>
         </section>
         <!-- Subtitle -->
-        <h2 class="pg fw-semibold fs-4 text-wrap rounded container mt-5" style="width: 20rem;">Preguntas Frecuentes</h2>
+        <h2 class="fw-semibold fs-4 text-wrap rounded container my-5 pg" style="width: 20rem;">Preguntas Frecuentes</h2>
         <!-- Accordion -->
         <section class="">
             <div class="accordion container" id="accordionExample">
@@ -216,7 +207,7 @@ imagenes en las paginas/videos -->
                 <p class="copy">Copyright 2023, Todos los derechos reservados | patotas.com</p>
             </li>
             <li>
-                <a href="index.html"><img class="logof" src="images/logotipo.jpg" alt="patotas"></a>
+                <a href="index.html"><img class="logof" src="images/logotipo.jpg" alt="logo-patotas"></a>
             </li>
         </ul>
         <!-- Redes -->

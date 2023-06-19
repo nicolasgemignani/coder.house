@@ -1,3 +1,6 @@
+/* Colors 
+#d99058 fuerte
+#f1b88c Suave*/
 /* body */
 body{
     background-image: url(../images/back1.avif);
@@ -19,10 +22,10 @@ header{
     color: black;
 }
 .nav-links:hover{
-    background-color: #ffd059;
+    background-color: #e7b996;
 }
 .tbackground{
-    background-color: #ffd059;
+    background-color: #e7b996;
 }
 /* Main */
 .ancho{
@@ -44,25 +47,27 @@ header{
     padding: var(--bs-card-img-overlay-padding);
     border-radius: var(--bs-card-inner-border-radius);
 }
+.cardh:hover{
+    text-decoration: underline;
+}
 /* Subtitle */
 .pg{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color:#ffd059;
-    margin-top: 4px;
+    background-color: #d99058;
 }
 /* Accordion */
 .shadow{
-    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #ffe8af;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #d99058;
 }
 .accback{
     --bs-accordion-active-color: none;
-    --bs-accordion-active-bg: #ffd059;
-    background-color: #ffd059;
+    --bs-accordion-active-bg: #d99058;
+    background-color: #d99058;
 }
 .textback{
-    background-color: #ffe8af;
+    background-color: #f1b88c;
 }
 /* Material ampliado | Pages */
 .achedos{
@@ -78,10 +83,9 @@ header{
     font-size:larger;
 }
 /* footer */
-
 /* Copyright */
 .copy{
-    color: #ffd059;
+    color: #d99058;
 }
 /* Logo */
 .logof{
@@ -94,10 +98,10 @@ header{
 }
 /* Links */
 .lkn{
-    color: #ffd059;
+    color: #d99058;
 }
 .lkn:hover{
-    color: #ffd059;
+    color: #d99058;
     text-decoration: underline;
     opacity: 70%;
 }
