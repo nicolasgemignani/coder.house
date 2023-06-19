@@ -1,0 +1,108 @@
+/* body */
+body{
+    background-image: url(../images/back1.avif);
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+/* Header */
+header{
+    background-color: white;
+}
+/* Nav */
+.navbar-nav{
+    margin-top: 40px;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+.nav-links{
+    color: black;
+}
+.nav-links:hover{
+    background-color: #ffd059;
+}
+.tbackground{
+    background-color: #ffd059;
+}
+/* Main */
+.ancho{
+    background-color: white;
+}
+.cont{
+    background-image: url(../images/contac.avif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* Menu Cards */
+.imgp{
+    line-height: 1;
+}
+.card-img-overlay {
+    position: absolute;
+    top: inherit;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: var(--bs-card-img-overlay-padding);
+    border-radius: var(--bs-card-inner-border-radius);
+}
+/* Subtitle */
+.pg{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#ffd059;
+    margin-top: 4px;
+}
+/* Accordion */
+.shadow{
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #ffe8af;
+}
+.accback{
+    --bs-accordion-active-color: none;
+    --bs-accordion-active-bg: #ffd059;
+    background-color: #ffd059;
+}
+.textback{
+    background-color: #ffe8af;
+}
+/* Material ampliado | Pages */
+.achedos{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.achetres{
+    font-size:x-large;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.achecuatro{
+    font-size:larger;
+}
+/* footer */
+
+/* Copyright */
+.copy{
+    color: #ffd059;
+}
+/* Logo */
+.logof{
+    width: 40px;
+    flex-wrap: wrap;
+}
+/* Redes */
+.redes{
+    width: 30%;
+}
+/* Links */
+.lkn{
+    color: #ffd059;
+}
+.lkn:hover{
+    color: #ffd059;
+    text-decoration: underline;
+    opacity: 70%;
+}
+
