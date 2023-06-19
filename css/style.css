@@ -4,7 +4,6 @@ body{
     background-size: contain;
     background-attachment: fixed;
 }
-
 /* Header */
 header{
     background-color: white;
@@ -36,9 +35,6 @@ header{
     background-position: center;
 }
 /* Menu Cards */
-.imgp{
-    line-height: 1;
-}
 .card-img-overlay {
     position: absolute;
     top: inherit;
