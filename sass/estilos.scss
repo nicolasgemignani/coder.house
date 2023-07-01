@@ -1,0 +1,104 @@
+// Colors #d99058 fuerte/ #f1b88c Suave
+body{
+    background-image: url(../images/back1.avif);
+    background-size: contain;
+    background-attachment: fixed;
+    // Header
+    header{
+        background-color: white;
+        .navbar-collapse{
+            flex-grow: 0;
+            .navbar-nav{
+                margin-top: 40px;
+            }
+            .nav-links{
+                color: black;
+            }
+            .nav-links:hover{
+                background-color: #e7b996;
+            }
+            .tbackground{
+                background-color: #e7b996;
+            }
+        }
+    }
+    // Main/footer
+    .ancho{
+        background-color: white;
+        // Menu Card/Index
+        .card-img-overlay {
+            position: absolute;
+            top: inherit;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            padding: var(--bs-card-img-overlay-padding);
+            border-radius: var(--bs-card-inner-border-radius);
+        }
+        // Subtittle/Index
+        .pg{
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color: #d99058;
+        }
+        // Accordion/Index
+        .shadow{
+            --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #d99058;
+            .accback{
+                --bs-accordion-active-color: none;
+                --bs-accordion-active-bg: #d99058;
+                background-color: #d99058;
+            }
+        }
+        .textback{
+            background-color: #f1b88c;
+        }
+        // Cards 1y2/Pages
+        .cardh:hover{
+            text-decoration: underline;
+        }
+        // Material Ampliado/Pages
+        .achedos{
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+        .achetres{
+            font-size:x-large;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+        .achecuatro{
+            font-size:larger;
+        }
+        // Formulario/Contacto
+        .cont{
+            background-image: url(../images/contac.avif);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        // Copyright/Footer
+        .copy{
+            color: #d99058;
+        }
+        // Logo/Footer
+        .logof{
+            width: 40px;
+            flex-wrap: wrap;
+        }
+        // Redes/footer
+        .redes{
+            width: 30%;
+        }
+        // Links/Footer
+        .lkn{
+            color: #d99058;
+        }
+        .lkn:hover{
+            color: #d99058;
+            text-decoration: underline;
+            opacity: 70%;
+        }
+    }
+}

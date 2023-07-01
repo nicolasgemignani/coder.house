@@ -1,0 +1,93 @@
+body {
+  background-image: url(../images/back1.avif);
+  background-size: contain;
+  background-attachment: fixed;
+}
+body header {
+  background-color: white;
+}
+body header .navbar-collapse {
+  flex-grow: 0;
+}
+body header .navbar-collapse .navbar-nav {
+  margin-top: 40px;
+}
+body header .navbar-collapse .nav-links {
+  color: black;
+}
+body header .navbar-collapse .nav-links:hover {
+  background-color: #e7b996;
+}
+body header .navbar-collapse .tbackground {
+  background-color: #e7b996;
+}
+body .ancho {
+  background-color: white;
+}
+body .ancho .card-img-overlay {
+  position: absolute;
+  top: inherit;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: var(--bs-card-img-overlay-padding);
+  border-radius: var(--bs-card-inner-border-radius);
+}
+body .ancho .pg {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #d99058;
+}
+body .ancho .shadow {
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #d99058;
+}
+body .ancho .shadow .accback {
+  --bs-accordion-active-color: none;
+  --bs-accordion-active-bg: #d99058;
+  background-color: #d99058;
+}
+body .ancho .textback {
+  background-color: #f1b88c;
+}
+body .ancho .cardh:hover {
+  text-decoration: underline;
+}
+body .ancho .achedos {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+body .ancho .achetres {
+  font-size: x-large;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+body .ancho .achecuatro {
+  font-size: larger;
+}
+body .ancho .cont {
+  background-image: url(../images/contac.avif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body .ancho .copy {
+  color: #d99058;
+}
+body .ancho .logof {
+  width: 40px;
+  flex-wrap: wrap;
+}
+body .ancho .redes {
+  width: 30%;
+}
+body .ancho .lkn {
+  color: #d99058;
+}
+body .ancho .lkn:hover {
+  color: #d99058;
+  text-decoration: underline;
+  opacity: 70%;
+}
+
+/*# sourceMappingURL=estilos.css.map */

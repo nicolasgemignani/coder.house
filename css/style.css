@@ -12,11 +12,11 @@ header{
     background-color: white;
 }
 /* Nav */
-.navbar-nav{
-    margin-top: 40px;
-}
 .navbar-collapse{
     flex-grow: 0;
+}
+.navbar-nav{
+    margin-top: 40px;
 }
 .nav-links{
     color: black;
@@ -37,7 +37,7 @@ header{
     background-repeat: no-repeat;
     background-position: center;
 }
-/* Menu Cards */
+/* Menu Cards/Index */
 .card-img-overlay {
     position: absolute;
     top: inherit;
@@ -47,17 +47,18 @@ header{
     padding: var(--bs-card-img-overlay-padding);
     border-radius: var(--bs-card-inner-border-radius);
 }
+/* Cards 1y2/Pages */
 .cardh:hover{
     text-decoration: underline;
 }
-/* Subtitle */
+/* Subtitle/Index */
 .pg{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #d99058;
 }
-/* Accordion */
+/* Accordion/Index */
 .shadow{
     --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #d99058;
 }
