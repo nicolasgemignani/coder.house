@@ -1,0 +1,6 @@
+$fuerte:#d99058;
+$suave:#f1b88c;
+@mixin padding ($top, $bottom){
+    padding-top: $top ;
+    padding-bottom: $bottom;
+}

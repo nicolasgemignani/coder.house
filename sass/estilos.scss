@@ -1,4 +1,4 @@
-// Colors #d99058 fuerte/ #f1b88c Suave
+@import "variables";
 body{
     background-image: url(../images/back1.avif);
     background-size: contain;
@@ -15,10 +15,10 @@ body{
                 color: black;
             }
             .nav-links:hover{
-                background-color: #e7b996;
+                background-color: $suave;
             }
             .tbackground{
-                background-color: #e7b996;
+                background-color: $suave;
             }
         }
     }
@@ -38,9 +38,8 @@ body{
         // Subtittle/Index
         .pg{
             text-align: center;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            background-color: #d99058;
+            background-color: $fuerte;
+            @include padding(20px, 20px)
         }
         // Accordion/Index
         .shadow{
@@ -48,11 +47,11 @@ body{
             .accback{
                 --bs-accordion-active-color: none;
                 --bs-accordion-active-bg: #d99058;
-                background-color: #d99058;
+                background-color: $fuerte;
             }
         }
         .textback{
-            background-color: #f1b88c;
+            background-color: $suave;
         }
         // Cards 1y2/Pages
         .cardh:hover{
@@ -60,13 +59,11 @@ body{
         }
         // Material Ampliado/Pages
         .achedos{
-            padding-top: 2rem;
-            padding-bottom: 2rem;
+            @include padding(2rem, 2rem)
         }
         .achetres{
             font-size:x-large;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
+            @include padding(1rem, 1rem)
         }
         .achecuatro{
             font-size:larger;
@@ -80,7 +77,7 @@ body{
         }
         // Copyright/Footer
         .copy{
-            color: #d99058;
+            color: $fuerte;
         }
         // Logo/Footer
         .logof{
@@ -93,10 +90,10 @@ body{
         }
         // Links/Footer
         .lkn{
-            color: #d99058;
+            color: $fuerte;
         }
         .lkn:hover{
-            color: #d99058;
+            color: $suave;
             text-decoration: underline;
             opacity: 70%;
         }
